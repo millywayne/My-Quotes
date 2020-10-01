@@ -22,9 +22,7 @@ export class FormComponent implements OnInit {
     this.emitQuote.emit(this.theWords)
   }
 
-
-
-  constructor() { }
+ constructor() { }
 
   ngOnInit() {
   }
