@@ -1,9 +1,7 @@
-import { pipe, PipeTransform ,} from '@angular/core';
+import { Pipe, PipeTransform ,} from '@angular/core';
 
-@pipe({
-  selector: 'app-date-count.pipe',
-  templateUrl: './date-count.pipe.component.html',
-  styleUrls: ['./date-count.pipe.component.css']
+@Pipe({
+  name: 'dateCount'
 })
 export class DateCountPipe implements PipeTransform {
 
